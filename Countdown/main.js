@@ -22,7 +22,7 @@
                 countdown = document.getElementById("countdown"),
                 content = document.getElementById("content");
   
-            headline.innerText = "It's my timING!";
+            headline.innerText = "Baraka 3lik hh";
             countdown.style.display = "none";
             content.style.display = "block";
   
