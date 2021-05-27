@@ -5,13 +5,14 @@
           day = hour * 24;
   
     
-       let countDown = new Date("2021-07-1").getTime(),
+       let countDown = new Date("2021-07-21").getTime(),
+       //Actually  this is my Birthday 🎂  if u want to buy to me a gift 🎁 ☺ 
         x = setInterval(function() {    
   
           let now = new Date().getTime(),
               distance = countDown - now;
   
-          document.getElementById("days").innerText = Math.floor(distance / (day)),
+            document.getElementById("days").innerText = Math.floor(distance / (day)),
             document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
             document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
             document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
